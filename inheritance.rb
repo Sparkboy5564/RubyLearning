@@ -44,20 +44,6 @@ class Person
 end
 
 
-#tochi = Person.new("tochi",5.11,"Black")
-#chiagozie = Person.new("chiagozie",5.10,"Mixed")
-#val = Person.numberOfPerson
-#puts val
-#puts tochi
-#testing my assessor and mutators..
-#chiagozie.color = "Oboi u black which one be mixed"
-#val = chiagozie.color
-#puts val
-
-#going to expand this class 
-#classes are blue prints for objects
-#using inheritance
-
 class Igbo < Person
   def initialize (name,age,weight,sex,religion,color,hei)
     super(name,hei,color)
@@ -109,6 +95,6 @@ end
 #this shows the implementation of inheritance in RUBY_VERSION
 
 
-tochi = Igbo.new("tochi Opara Chiagozie","26",240,"Male","Christainity","Dark",5.10)
-puts tochi
+lookman = Igbo.new("lookman adekunle","26",240,"Male","Christainity","Dark",5.10)
+puts lookman
 
